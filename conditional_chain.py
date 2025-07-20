@@ -51,3 +51,5 @@ feedback_text = "I love the new features of your product!"
 
 result = chain.invoke({"feedback": feedback_text})
 print(result)
+
+chain.get_graph().print_ascii()
